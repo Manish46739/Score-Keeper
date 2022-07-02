@@ -1,0 +1,65 @@
+.winner{
+    color:green;
+}
+.loser{
+    color:red;
+}
+body{
+    margin-top:auto;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height: 30%;
+    width: 30%;
+    border-radius:2% ;
+    border: 5px solid gold;
+}
+p{
+    font-size:4em;
+    font-style: bold;
+}
+button{
+    border:2px solid gold;
+    margin:auto;
+    margin-top:10px;
+    border-radius: 50%;
+    height:70px;
+    width:15%;
+    font-size: 1.8vw;
+}
+#p1button{
+    background-color: rgba(0, 113, 128, 0.823);
+}
+#p2button{
+    background-color:rgba(0, 0, 255, 0.493);
+}
+#reset{
+    background-color:rgba(255, 0, 0, 0.628);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.607);
+    color:white;
+}
+
+#p1name{
+    border:2px solid green;
+    margin:auto;
+    margin-top:15px;
+    height:40px;
+    width:10%;
+    font-size: 1.5vw;
+   
+}
+#p2name{
+    border:2px solid green;
+    margin:auto;
+    margin-top:15px;
+    height:40px;
+    width:10%;
+    font-size: 1.5vw;
+    
+}
+label{
+    font-size: 2vw;
+}

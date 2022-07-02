@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+   
+    <div id="container">
+        <div>
+            
+                <label for="p1">  Player 1 Name :</label>
+                <input type="text" name="p1" id="input" >
+                
+                <button id="p1name">Enter</button>
+
+
+                
+                <label for="p2">  Player 2 Name :</label>
+                <input type="text" name="p2" id="input2" >
+                
+                <button id="p2name">Enter</button>
+                
+            
+        </div>
+    <div id="section">
+       
+        <h1 id="cheer"></h1>
+        <img id="image" src="img.webp" alt="error">
+    <p><span id='p1Display'>0</span> Vs <span id="p2Display">0</span> </p>
+    <div>
+    <label for="max"><b> Playing to </b></label>
+    <select id="max" >
+        <option value="">choose one</option>
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="11">11</option>
+        <option value="21">21</option>
+    
+    </select>
+</div>
+    <button id="p1button"><b> +1 to Player 1 </b></button>
+    <button id="p2button"><b> +1 to Player 2</b></button>
+    <button id="reset"><b> Reset</b></button>
+</div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
