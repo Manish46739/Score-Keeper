@@ -63,3 +63,8 @@ body{
 label{
     font-size: 2vw;
 }
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transform: translateY(-.2em);
+}
